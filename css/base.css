@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*常规设置*/
+* {
+  font-family: 微软雅黑; }
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff; }
+
+/*mixin*/
+/*变量定义*/
+/*header*/
+header {
+  padding: 10px 0;
+  position: fixed;
+  background-color: #fff;
+  min-height: 84px;
+  width: 100%; }
+  header .main {
+    width: 1280px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto; }
+  header .logo {
+    float: left; }
+  header .head_nav {
+    float: right;
+    height: 75px;
+    line-height: 75px; }
+    header .head_nav ul li {
+      font-size: 20px;
+      float: left;
+      margin-right: 70px;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      list-style-type: none; }
+      header .head_nav ul li:hover {
+        border-bottom: 3px solid #229dff;
+        transition: all .2s ease-in-out; }
+      header .head_nav ul li:hover a {
+        color: #229dff; }
+      header .head_nav ul li a {
+        color: #575a60; }
+    header .head_nav ul li:last-child {
+      margin-right: 0; }
+    header .head_nav ul .on {
+      border-bottom: 3px solid #229dff; }
+      header .head_nav ul .on a {
+        color: #229dff; }
+
+/*footer*/
+footer {
+  background-color: #d9d9d9;
+  height: 360px;
+  color: #999999;
+  clear: both; }
+  footer .main {
+    width: 1280px;
+    padding: 95px 0 35px 0;
+    margin: 0 auto; }
+  footer .top {
+    height: 145px; }
+  footer .modular {
+    float: left;
+    font-size: 14px; }
+  footer .modular1 {
+    float: left;
+    width: 245px; }
+    footer .modular1 .title {
+      font-weight: bold;
+      font-size: 30px;
+      font-family: 方正大黑简体; }
+    footer .modular1 ul {
+      height: 100px;
+      padding: 0; }
+      footer .modular1 ul li {
+        list-style-type: circle;
+        font-size: 14px;
+        display: inline;
+        cursor: pointer; }
+        footer .modular1 ul li a {
+          color: #929292; }
+          footer .modular1 ul li a:hover {
+            color: #666666; }
+  footer .modular2 {
+    float: none;
+    margin: 0 auto;
+    width: 410px; }
+    footer .modular2 .float {
+      float: left; }
+    footer .modular2 .left {
+      margin-right: 35px;
+      text-align: center; }
+      footer .modular2 .left .title {
+        font-size: 20px;
+        font-family: 黑体;
+        margin-top: 10px; }
+    footer .modular2 .right p {
+      white-space: pre-wrap; }
+    footer .modular2 .right p:first-child {
+      margin-top: 0; }
+  footer .modular3 {
+    text-align: center;
+    float: right; }
+  footer .bottom .title {
+    font-size: 37px;
+    font-family: Myriad Pro;
+    color: #666666;
+    text-align: center;
+    margin-top: 40px; }
+  footer .bottom p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0; }
+
+/*# sourceMappingURL=base.css.map */
